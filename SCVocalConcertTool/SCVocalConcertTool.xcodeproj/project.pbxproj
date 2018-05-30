@@ -1,0 +1,814 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2957FF93690187862C6BE57F /* Pods_SCVocalConcertTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 059CE74FE26F5CA10C032C4C /* Pods_SCVocalConcertTool.framework */; };
+		5E4284A020B29D0F0061959D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E42849F20B29D0F0061959D /* AppDelegate.swift */; };
+		5E4284A220B29D0F0061959D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4284A120B29D0F0061959D /* ViewController.swift */; };
+		5E4284A520B29D0F0061959D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E4284A320B29D0F0061959D /* Main.storyboard */; };
+		5E4284A720B29D110061959D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E4284A620B29D110061959D /* Assets.xcassets */; };
+		5E4284AA20B29D110061959D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E4284A820B29D110061959D /* LaunchScreen.storyboard */; };
+		5E4284B520B29D110061959D /* SCVocalConcertToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4284B420B29D110061959D /* SCVocalConcertToolTests.swift */; };
+		5E4284C020B29D110061959D /* SCVocalConcertToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4284BF20B29D110061959D /* SCVocalConcertToolUITests.swift */; };
+		5E4284CE20B2A6BC0061959D /* SCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4284CD20B2A6BC0061959D /* SCButton.swift */; };
+		5E4284D020B2ACE10061959D /* SCColorTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4284CF20B2ACE10061959D /* SCColorTool.swift */; };
+		5E4284D320B2AF1E0061959D /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4284D220B2AF1D0061959D /* UIColorExtension.swift */; };
+		5E4284D520B2B9ED0061959D /* SCTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4284D420B2B9ED0061959D /* SCTitleLabel.swift */; };
+		5E4284D820B2D7030061959D /* HannotateSC-W7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E4284D720B2D7030061959D /* HannotateSC-W7.ttf */; };
+		5E4284DA20B3BCAD0061959D /* DFPWaWaW7-B5.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E4284D920B3BCAD0061959D /* DFPWaWaW7-B5.ttf */; };
+		5E4284DC20B3BEC00061959D /* WeibeiSC-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E4284DB20B3BEC00061959D /* WeibeiSC-Bold.ttf */; };
+		5E4284DE20B3C0AA0061959D /* YuppySC-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E4284DD20B3C0AA0061959D /* YuppySC-Regular.ttf */; };
+		5E4284E020B3F54B0061959D /* SCSettingAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4284DF20B3F54B0061959D /* SCSettingAlertView.swift */; };
+		5E4284ED20B40D760061959D /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4284E320B40D750061959D /* ServiceManager.swift */; };
+		5E4284EE20B40D760061959D /* JHTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4284E520B40D750061959D /* JHTextView.swift */; };
+		5E4284F020B40D760061959D /* ValueChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4284E820B40D750061959D /* ValueChange.swift */; };
+		5E4284F120B40D760061959D /* Array+JHExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4284E920B40D750061959D /* Array+JHExtension.swift */; };
+		5E4284F220B40D760061959D /* Date+JHExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4284EA20B40D750061959D /* Date+JHExtension.swift */; };
+		5E4284F320B40D760061959D /* String+JHExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4284EB20B40D750061959D /* String+JHExtension.swift */; };
+		5E4284F420B40D760061959D /* Dictionary+JHExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4284EC20B40D750061959D /* Dictionary+JHExtension.swift */; };
+		5E4284F620B410180061959D /* UIViewUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4284F520B410180061959D /* UIViewUtil.swift */; };
+		5E4284FA20B413350061959D /* SystemUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4284F920B413350061959D /* SystemUtil.swift */; };
+		5E55B70B20BD2E6200EDDE05 /* SCTextFiledView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E55B70A20BD2E6200EDDE05 /* SCTextFiledView.swift */; };
+		5E55B70D20BD438900EDDE05 /* UITextField+JHExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E55B70C20BD438900EDDE05 /* UITextField+JHExtension.swift */; };
+		5E55B71020BD508D00EDDE05 /* IQKeyboardManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E55B70F20BD508D00EDDE05 /* IQKeyboardManager.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E4284B120B29D110061959D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E42849420B29D0F0061959D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E42849B20B29D0F0061959D;
+			remoteInfo = SCVocalConcertTool;
+		};
+		5E4284BC20B29D110061959D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E42849420B29D0F0061959D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E42849B20B29D0F0061959D;
+			remoteInfo = SCVocalConcertTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		059CE74FE26F5CA10C032C4C /* Pods_SCVocalConcertTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SCVocalConcertTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E42849C20B29D0F0061959D /* SCVocalConcertTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCVocalConcertTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E42849F20B29D0F0061959D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E4284A120B29D0F0061959D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5E4284A420B29D0F0061959D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E4284A620B29D110061959D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E4284A920B29D110061959D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E4284AB20B29D110061959D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E4284B020B29D110061959D /* SCVocalConcertToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCVocalConcertToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E4284B420B29D110061959D /* SCVocalConcertToolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCVocalConcertToolTests.swift; sourceTree = "<group>"; };
+		5E4284B620B29D110061959D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E4284BB20B29D110061959D /* SCVocalConcertToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCVocalConcertToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E4284BF20B29D110061959D /* SCVocalConcertToolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCVocalConcertToolUITests.swift; sourceTree = "<group>"; };
+		5E4284C120B29D110061959D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E4284CD20B2A6BC0061959D /* SCButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCButton.swift; sourceTree = "<group>"; };
+		5E4284CF20B2ACE10061959D /* SCColorTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCColorTool.swift; sourceTree = "<group>"; };
+		5E4284D220B2AF1D0061959D /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		5E4284D420B2B9ED0061959D /* SCTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCTitleLabel.swift; sourceTree = "<group>"; };
+		5E4284D720B2D7030061959D /* HannotateSC-W7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HannotateSC-W7.ttf"; sourceTree = "<group>"; };
+		5E4284D920B3BCAD0061959D /* DFPWaWaW7-B5.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DFPWaWaW7-B5.ttf"; sourceTree = "<group>"; };
+		5E4284DB20B3BEC00061959D /* WeibeiSC-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WeibeiSC-Bold.ttf"; sourceTree = "<group>"; };
+		5E4284DD20B3C0AA0061959D /* YuppySC-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "YuppySC-Regular.ttf"; sourceTree = "<group>"; };
+		5E4284DF20B3F54B0061959D /* SCSettingAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCSettingAlertView.swift; sourceTree = "<group>"; };
+		5E4284E320B40D750061959D /* ServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		5E4284E520B40D750061959D /* JHTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHTextView.swift; sourceTree = "<group>"; };
+		5E4284E820B40D750061959D /* ValueChange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueChange.swift; sourceTree = "<group>"; };
+		5E4284E920B40D750061959D /* Array+JHExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+JHExtension.swift"; sourceTree = "<group>"; };
+		5E4284EA20B40D750061959D /* Date+JHExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+JHExtension.swift"; sourceTree = "<group>"; };
+		5E4284EB20B40D750061959D /* String+JHExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+JHExtension.swift"; sourceTree = "<group>"; };
+		5E4284EC20B40D750061959D /* Dictionary+JHExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+JHExtension.swift"; sourceTree = "<group>"; };
+		5E4284F520B410180061959D /* UIViewUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewUtil.swift; sourceTree = "<group>"; };
+		5E4284F920B413350061959D /* SystemUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemUtil.swift; sourceTree = "<group>"; };
+		5E55B70A20BD2E6200EDDE05 /* SCTextFiledView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCTextFiledView.swift; sourceTree = "<group>"; };
+		5E55B70C20BD438900EDDE05 /* UITextField+JHExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+JHExtension.swift"; sourceTree = "<group>"; };
+		5E55B70E20BD4DBA00EDDE05 /* SCVocalConcertTool-bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SCVocalConcertTool-bridging-Header.h"; sourceTree = "<group>"; };
+		5E55B70F20BD508D00EDDE05 /* IQKeyboardManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IQKeyboardManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		655C761D74CF5760E609448C /* Pods-SCVocalConcertTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCVocalConcertTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SCVocalConcertTool/Pods-SCVocalConcertTool.debug.xcconfig"; sourceTree = "<group>"; };
+		78B17021B808B2A0BDFB51DD /* Pods-SCVocalConcertTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCVocalConcertTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-SCVocalConcertTool/Pods-SCVocalConcertTool.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E42849920B29D0F0061959D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E55B71020BD508D00EDDE05 /* IQKeyboardManager.framework in Frameworks */,
+				2957FF93690187862C6BE57F /* Pods_SCVocalConcertTool.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E4284AD20B29D110061959D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E4284B820B29D110061959D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E42849320B29D0F0061959D = {
+			isa = PBXGroup;
+			children = (
+				5E55B70E20BD4DBA00EDDE05 /* SCVocalConcertTool-bridging-Header.h */,
+				5E42849E20B29D0F0061959D /* SCVocalConcertTool */,
+				5E4284B320B29D110061959D /* SCVocalConcertToolTests */,
+				5E4284BE20B29D110061959D /* SCVocalConcertToolUITests */,
+				5E42849D20B29D0F0061959D /* Products */,
+				CF01F5E9A8725B01C81326F9 /* Pods */,
+				DD84D95458DC88181657A58C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5E42849D20B29D0F0061959D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E42849C20B29D0F0061959D /* SCVocalConcertTool.app */,
+				5E4284B020B29D110061959D /* SCVocalConcertToolTests.xctest */,
+				5E4284BB20B29D110061959D /* SCVocalConcertToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E42849E20B29D0F0061959D /* SCVocalConcertTool */ = {
+			isa = PBXGroup;
+			children = (
+				5E4284E120B40D750061959D /* SwiftTool */,
+				5E4284D620B2D7030061959D /* font */,
+				5E4284D120B2AF1D0061959D /* other */,
+				5E42849F20B29D0F0061959D /* AppDelegate.swift */,
+				5E4284A120B29D0F0061959D /* ViewController.swift */,
+				5E4284DF20B3F54B0061959D /* SCSettingAlertView.swift */,
+				5E4284CF20B2ACE10061959D /* SCColorTool.swift */,
+				5E4284CD20B2A6BC0061959D /* SCButton.swift */,
+				5E4284D420B2B9ED0061959D /* SCTitleLabel.swift */,
+				5E55B70A20BD2E6200EDDE05 /* SCTextFiledView.swift */,
+				5E4284A320B29D0F0061959D /* Main.storyboard */,
+				5E4284A620B29D110061959D /* Assets.xcassets */,
+				5E4284A820B29D110061959D /* LaunchScreen.storyboard */,
+				5E4284AB20B29D110061959D /* Info.plist */,
+			);
+			path = SCVocalConcertTool;
+			sourceTree = "<group>";
+		};
+		5E4284B320B29D110061959D /* SCVocalConcertToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E4284B420B29D110061959D /* SCVocalConcertToolTests.swift */,
+				5E4284B620B29D110061959D /* Info.plist */,
+			);
+			path = SCVocalConcertToolTests;
+			sourceTree = "<group>";
+		};
+		5E4284BE20B29D110061959D /* SCVocalConcertToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E4284BF20B29D110061959D /* SCVocalConcertToolUITests.swift */,
+				5E4284C120B29D110061959D /* Info.plist */,
+			);
+			path = SCVocalConcertToolUITests;
+			sourceTree = "<group>";
+		};
+		5E4284D120B2AF1D0061959D /* other */ = {
+			isa = PBXGroup;
+			children = (
+				5E4284D220B2AF1D0061959D /* UIColorExtension.swift */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		5E4284D620B2D7030061959D /* font */ = {
+			isa = PBXGroup;
+			children = (
+				5E4284DD20B3C0AA0061959D /* YuppySC-Regular.ttf */,
+				5E4284DB20B3BEC00061959D /* WeibeiSC-Bold.ttf */,
+				5E4284D720B2D7030061959D /* HannotateSC-W7.ttf */,
+				5E4284D920B3BCAD0061959D /* DFPWaWaW7-B5.ttf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		5E4284E120B40D750061959D /* SwiftTool */ = {
+			isa = PBXGroup;
+			children = (
+				5E4284E220B40D750061959D /* Hardware */,
+				5E4284E420B40D750061959D /* UiKit */,
+				5E4284E720B40D750061959D /* Foundation */,
+			);
+			path = SwiftTool;
+			sourceTree = "<group>";
+		};
+		5E4284E220B40D750061959D /* Hardware */ = {
+			isa = PBXGroup;
+			children = (
+				5E4284E320B40D750061959D /* ServiceManager.swift */,
+			);
+			path = Hardware;
+			sourceTree = "<group>";
+		};
+		5E4284E420B40D750061959D /* UiKit */ = {
+			isa = PBXGroup;
+			children = (
+				5E55B70C20BD438900EDDE05 /* UITextField+JHExtension.swift */,
+				5E4284E520B40D750061959D /* JHTextView.swift */,
+				5E4284F520B410180061959D /* UIViewUtil.swift */,
+				5E4284F920B413350061959D /* SystemUtil.swift */,
+			);
+			path = UiKit;
+			sourceTree = "<group>";
+		};
+		5E4284E720B40D750061959D /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				5E4284E820B40D750061959D /* ValueChange.swift */,
+				5E4284E920B40D750061959D /* Array+JHExtension.swift */,
+				5E4284EA20B40D750061959D /* Date+JHExtension.swift */,
+				5E4284EB20B40D750061959D /* String+JHExtension.swift */,
+				5E4284EC20B40D750061959D /* Dictionary+JHExtension.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		CF01F5E9A8725B01C81326F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				655C761D74CF5760E609448C /* Pods-SCVocalConcertTool.debug.xcconfig */,
+				78B17021B808B2A0BDFB51DD /* Pods-SCVocalConcertTool.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DD84D95458DC88181657A58C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E55B70F20BD508D00EDDE05 /* IQKeyboardManager.framework */,
+				059CE74FE26F5CA10C032C4C /* Pods_SCVocalConcertTool.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E42849B20B29D0F0061959D /* SCVocalConcertTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E4284C420B29D110061959D /* Build configuration list for PBXNativeTarget "SCVocalConcertTool" */;
+			buildPhases = (
+				55095DB6CB1BEB93309FE747 /* [CP] Check Pods Manifest.lock */,
+				5E42849820B29D0F0061959D /* Sources */,
+				5E42849920B29D0F0061959D /* Frameworks */,
+				5E42849A20B29D0F0061959D /* Resources */,
+				7382A309139DBBED31073215 /* [CP] Embed Pods Frameworks */,
+				FF76FEFBE38915A4A7609A1A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCVocalConcertTool;
+			productName = SCVocalConcertTool;
+			productReference = 5E42849C20B29D0F0061959D /* SCVocalConcertTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E4284AF20B29D110061959D /* SCVocalConcertToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E4284C720B29D110061959D /* Build configuration list for PBXNativeTarget "SCVocalConcertToolTests" */;
+			buildPhases = (
+				5E4284AC20B29D110061959D /* Sources */,
+				5E4284AD20B29D110061959D /* Frameworks */,
+				5E4284AE20B29D110061959D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E4284B220B29D110061959D /* PBXTargetDependency */,
+			);
+			name = SCVocalConcertToolTests;
+			productName = SCVocalConcertToolTests;
+			productReference = 5E4284B020B29D110061959D /* SCVocalConcertToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E4284BA20B29D110061959D /* SCVocalConcertToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E4284CA20B29D110061959D /* Build configuration list for PBXNativeTarget "SCVocalConcertToolUITests" */;
+			buildPhases = (
+				5E4284B720B29D110061959D /* Sources */,
+				5E4284B820B29D110061959D /* Frameworks */,
+				5E4284B920B29D110061959D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E4284BD20B29D110061959D /* PBXTargetDependency */,
+			);
+			name = SCVocalConcertToolUITests;
+			productName = SCVocalConcertToolUITests;
+			productReference = 5E4284BB20B29D110061959D /* SCVocalConcertToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E42849420B29D0F0061959D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "朱成龙";
+				TargetAttributes = {
+					5E42849B20B29D0F0061959D = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					5E4284AF20B29D110061959D = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 5E42849B20B29D0F0061959D;
+					};
+					5E4284BA20B29D110061959D = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 5E42849B20B29D0F0061959D;
+					};
+				};
+			};
+			buildConfigurationList = 5E42849720B29D0F0061959D /* Build configuration list for PBXProject "SCVocalConcertTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E42849320B29D0F0061959D;
+			productRefGroup = 5E42849D20B29D0F0061959D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E42849B20B29D0F0061959D /* SCVocalConcertTool */,
+				5E4284AF20B29D110061959D /* SCVocalConcertToolTests */,
+				5E4284BA20B29D110061959D /* SCVocalConcertToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E42849A20B29D0F0061959D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E4284DC20B3BEC00061959D /* WeibeiSC-Bold.ttf in Resources */,
+				5E4284DE20B3C0AA0061959D /* YuppySC-Regular.ttf in Resources */,
+				5E4284AA20B29D110061959D /* LaunchScreen.storyboard in Resources */,
+				5E4284A720B29D110061959D /* Assets.xcassets in Resources */,
+				5E4284D820B2D7030061959D /* HannotateSC-W7.ttf in Resources */,
+				5E4284DA20B3BCAD0061959D /* DFPWaWaW7-B5.ttf in Resources */,
+				5E4284A520B29D0F0061959D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E4284AE20B29D110061959D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E4284B920B29D110061959D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55095DB6CB1BEB93309FE747 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SCVocalConcertTool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7382A309139DBBED31073215 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SCVocalConcertTool/Pods-SCVocalConcertTool-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SCVocalConcertTool/Pods-SCVocalConcertTool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF76FEFBE38915A4A7609A1A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SCVocalConcertTool/Pods-SCVocalConcertTool-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E42849820B29D0F0061959D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E55B70B20BD2E6200EDDE05 /* SCTextFiledView.swift in Sources */,
+				5E4284F320B40D760061959D /* String+JHExtension.swift in Sources */,
+				5E4284A220B29D0F0061959D /* ViewController.swift in Sources */,
+				5E4284FA20B413350061959D /* SystemUtil.swift in Sources */,
+				5E4284F620B410180061959D /* UIViewUtil.swift in Sources */,
+				5E4284A020B29D0F0061959D /* AppDelegate.swift in Sources */,
+				5E4284F120B40D760061959D /* Array+JHExtension.swift in Sources */,
+				5E4284E020B3F54B0061959D /* SCSettingAlertView.swift in Sources */,
+				5E4284ED20B40D760061959D /* ServiceManager.swift in Sources */,
+				5E4284D320B2AF1E0061959D /* UIColorExtension.swift in Sources */,
+				5E4284F020B40D760061959D /* ValueChange.swift in Sources */,
+				5E4284D520B2B9ED0061959D /* SCTitleLabel.swift in Sources */,
+				5E4284F220B40D760061959D /* Date+JHExtension.swift in Sources */,
+				5E4284CE20B2A6BC0061959D /* SCButton.swift in Sources */,
+				5E4284F420B40D760061959D /* Dictionary+JHExtension.swift in Sources */,
+				5E55B70D20BD438900EDDE05 /* UITextField+JHExtension.swift in Sources */,
+				5E4284D020B2ACE10061959D /* SCColorTool.swift in Sources */,
+				5E4284EE20B40D760061959D /* JHTextView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E4284AC20B29D110061959D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E4284B520B29D110061959D /* SCVocalConcertToolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E4284B720B29D110061959D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E4284C020B29D110061959D /* SCVocalConcertToolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E4284B220B29D110061959D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E42849B20B29D0F0061959D /* SCVocalConcertTool */;
+			targetProxy = 5E4284B120B29D110061959D /* PBXContainerItemProxy */;
+		};
+		5E4284BD20B29D110061959D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E42849B20B29D0F0061959D /* SCVocalConcertTool */;
+			targetProxy = 5E4284BC20B29D110061959D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E4284A320B29D0F0061959D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E4284A420B29D0F0061959D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E4284A820B29D110061959D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E4284A920B29D110061959D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E4284C220B29D110061959D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E4284C320B29D110061959D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E4284C520B29D110061959D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 655C761D74CF5760E609448C /* Pods-SCVocalConcertTool.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YR98A22L87;
+				INFOPLIST_FILE = SCVocalConcertTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.duoshoubang.SCVocalConcertTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SCVocalConcertTool-bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E4284C620B29D110061959D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78B17021B808B2A0BDFB51DD /* Pods-SCVocalConcertTool.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YR98A22L87;
+				INFOPLIST_FILE = SCVocalConcertTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.duoshoubang.SCVocalConcertTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SCVocalConcertTool-bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5E4284C820B29D110061959D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SCVocalConcertToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.duoshoubang.SCVocalConcertToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SCVocalConcertTool.app/SCVocalConcertTool";
+			};
+			name = Debug;
+		};
+		5E4284C920B29D110061959D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SCVocalConcertToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.duoshoubang.SCVocalConcertToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SCVocalConcertTool.app/SCVocalConcertTool";
+			};
+			name = Release;
+		};
+		5E4284CB20B29D110061959D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SCVocalConcertToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.duoshoubang.SCVocalConcertToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SCVocalConcertTool;
+			};
+			name = Debug;
+		};
+		5E4284CC20B29D110061959D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SCVocalConcertToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.duoshoubang.SCVocalConcertToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SCVocalConcertTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E42849720B29D0F0061959D /* Build configuration list for PBXProject "SCVocalConcertTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E4284C220B29D110061959D /* Debug */,
+				5E4284C320B29D110061959D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E4284C420B29D110061959D /* Build configuration list for PBXNativeTarget "SCVocalConcertTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E4284C520B29D110061959D /* Debug */,
+				5E4284C620B29D110061959D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E4284C720B29D110061959D /* Build configuration list for PBXNativeTarget "SCVocalConcertToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E4284C820B29D110061959D /* Debug */,
+				5E4284C920B29D110061959D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E4284CA20B29D110061959D /* Build configuration list for PBXNativeTarget "SCVocalConcertToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E4284CB20B29D110061959D /* Debug */,
+				5E4284CC20B29D110061959D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E42849420B29D0F0061959D /* Project object */;
+}
