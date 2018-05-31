@@ -341,29 +341,29 @@ class ViewController: UIViewController {
         
     }
     
-    
-    func startMarquee() {
-//        self.stopMarquee()
-        self.marqueeDisplayLink = CADisplayLink.init(target: self, selector: #selector(processMarquee))
-        self.marqueeDisplayLink?.preferredFramesPerSecond = Int(0.5)
-        self.marqueeDisplayLink?.add(to: RunLoop.main, forMode: .commonModes)
-    }
-    
-    @objc private func processMarquee() {
-        var frame = self.label.frame
-        
-        let targetX = -(self.view!.bounds.size.width + 50)
-        if frame.origin.x <= targetX {
-            frame.origin.x = 0
-            self.label.frame = frame
-        }else {
-            frame.origin.x -= 0.5
-            if frame.origin.x < targetX {
-                frame.origin.x = targetX
-            }
-            self.label.frame = frame
-        }
-    }
+///     func two
+//    func startMarquee() {
+////        self.stopMarquee()
+//        self.marqueeDisplayLink = CADisplayLink.init(target: self, selector: #selector(processMarquee))
+//        self.marqueeDisplayLink?.preferredFramesPerSecond = Int(0.5)
+//        self.marqueeDisplayLink?.add(to: RunLoop.main, forMode: .commonModes)
+//    }
+//
+//    @objc private func processMarquee() {
+//        var frame = self.label.frame
+//
+//        let targetX = -(self.view!.bounds.size.width + 50)
+//        if frame.origin.x <= targetX {
+//            frame.origin.x = 0
+//            self.label.frame = frame
+//        }else {
+//            frame.origin.x -= 0.5
+//            if frame.origin.x < targetX {
+//                frame.origin.x = targetX
+//            }
+//            self.label.frame = frame
+//        }
+//    }
     
     
     
